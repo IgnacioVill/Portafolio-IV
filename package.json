@@ -4,6 +4,9 @@
   "description": "Portafolio profesional de Ignacio Villanueva",
   "scripts": {
     "build": "composer install --no-dev --optimize-autoloader"
+  },
+  "dependencies": {
+    "vercel-php": "^0.6.0"
   }
 }
 

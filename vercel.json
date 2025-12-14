@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "functions": {
-    "public/index.php": {
-      "runtime": "php8.2"
+  "builds": [
+    {
+      "src": "public/index.php",
+      "use": "vercel-php@0.6.0"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/assets/(.*)",
