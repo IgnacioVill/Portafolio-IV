@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Portafolio profesional de Ignacio Villanueva",
   "scripts": {
-    "vercel-build": "composer install --no-dev --optimize-autoloader"
-  },
-  "engines": {
-    "php": "8.1"
+    "build": "composer install --no-dev --optimize-autoloader"
   }
 }
 
