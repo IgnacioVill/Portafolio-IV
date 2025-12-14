@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Redirigir todo al index.php excepto archivos existentes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Prevenir acceso directo a archivos PHP en app/
+RewriteRule ^app/ - [F,L]
+
+# Prevenir acceso directo a archivos de configuración
+RewriteRule ^(config|models|controllers)/ - [F,L]
+

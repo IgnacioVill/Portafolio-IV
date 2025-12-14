@@ -1,0 +1,71 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos de configuración local
+app/config/config.local.php
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Archivos de backup
+*.bak
+*.backup
+*~
+
+# Archivos de sesión
+sessions/
+
+# Archivos de cache
+cache/
+*.cache
+
+# Variables de entorno
+.env
+.env.local
+
+# Configuración con credenciales (crear config.local.php para producción)
+app/config/config.local.php
+
+# Vercel
+.vercel
+
+# Archivos de usuario
+uploads/
+user_uploads/
+
+# Mensajes de contacto (contienen información personal)
+storage/messages/*.txt
+!storage/messages/.gitkeep
+
+# Node modules (si se agregan herramientas de build)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Composer
+vendor/
+composer.lock
+
+# Archivos compilados
+dist/
+build/
+
+# Archivos de PHP
+*.php~
+*.php.bak
+

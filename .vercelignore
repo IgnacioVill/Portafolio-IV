@@ -1,0 +1,14 @@
+# Archivos que no se deben subir a Vercel
+.git/
+.gitignore
+README.md
+DEPLOY_GUIDE.md
+INSTALACION_PHPMailer.md
+SOLUCION_GMAIL.md
+SUGERENCIAS_DISENO.md
+storage/messages/*.txt
+!storage/messages/.gitkeep
+test_*.php
+*.md
+!README.md
+
